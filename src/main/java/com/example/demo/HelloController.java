@@ -8,7 +8,6 @@ public class HelloController {
     
     @RequestMapping("/")
     public String index() {
-
         return "My first Spring Boot Application";
     }
 }
